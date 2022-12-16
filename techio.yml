@@ -6,5 +6,5 @@ plan:
   statement: statement.md
 projects:
 html:
-  root: /templates
+  root: /html-project
   runner: html5
