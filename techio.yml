@@ -2,8 +2,6 @@ title: Atelier HTML
 plan:
 - title: Atelier
   statement: atelier.md
-- title: Bienvenue
-  statement: statement.md
 projects:
 html:
   root: /templates
