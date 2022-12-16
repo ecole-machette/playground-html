@@ -2,12 +2,24 @@
 
 include('index.html');
 
-$var = file_get_contents('index.html');
+$html = file_get_contents('index.html');
+$css = file_get_contents('style.css');
+$js = file_get_contents('script.js');
 
-// echo $var;
+$nb_green = mb_substr_count($css, "green");
 echo "<div style='visibility: hidden;'>";
-echo("TECHIO> success true \r\n");
-echo("TECHIO> message --channel Super! Une solution facilement adaptable. \r\n");
+
+if ($nb_green == 1) {
+    echo("TECHIO> success true \r\n");
+    echo("TECHIO> message --channel Super! Tu as trouvé la bonne solution. \r\n");
+} else {
+    echo("TECHIO> success false  \r\n");
+	echo("TECHIO> message --channel Dommage ! Le style, ça se passe dans la feuille de style ! Es-tu aller voir là-bas ? \r\n");
+}
+
+
+
+
 echo "</div>";
 
 ?>
