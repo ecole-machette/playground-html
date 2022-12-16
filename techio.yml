@@ -4,5 +4,4 @@ plan:
   statement: atelier.md
 projects:
 html:
-  root: /templates
   runner: html5
