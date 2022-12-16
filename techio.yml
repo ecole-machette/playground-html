@@ -5,4 +5,4 @@ plan:
 projects:
   first-project:
     root: /templates
-    runner: html5
+    name: bash
