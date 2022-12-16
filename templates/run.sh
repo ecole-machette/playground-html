@@ -11,4 +11,4 @@ echo
 php $1 > output.html
 
 # Ordonne à Tech.io d'afficher le fichier html dans sa visonneuse
-# echo "TECHIO> open -s /project/target/ output.html"
+echo "TECHIO> open -s /project/target/ output.html"
