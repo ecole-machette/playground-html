@@ -3,5 +3,6 @@ plan:
 - title: Atelier
   statement: markdowns/atelier.md
 projects:
-  root: /templates
-  runner: html5
+  first-project:
+    root: /templates
+    runner: html5
