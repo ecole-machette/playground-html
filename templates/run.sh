@@ -1,5 +1,5 @@
 # Empêche de faire apparaitre la sortie brute du résultat dans l'aperçu
-echo "TECHIO> redirect-streams 'null'"
+# echo "TECHIO> redirect-streams 'null'"
 
 # Récupère le contenu du fichier php ou html exécuté
 # php $1
