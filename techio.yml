@@ -1,7 +1,7 @@
 title: Atelier HTML
 plan:
 - title: Atelier
-  statement: atelier.md
+  statement: markdowns/atelier.md
 projects:
-html:
+  root: /templates
   runner: html5
