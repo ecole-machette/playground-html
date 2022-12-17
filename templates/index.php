@@ -9,7 +9,7 @@ $js = file_get_contents('script.js');
 $nb_green = mb_substr_count($css, "green");
 echo "<div style='visibility: hidden;'>";
 
-if ($nb_green >= 1) {
+if ($nb_green >= 5) {
     echo("TECHIO> success true \r\n");
     echo("TECHIO> message --channel Super! Tu as trouvé la bonne solution. \r\n");
 } else {
