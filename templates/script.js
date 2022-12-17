@@ -7,6 +7,8 @@ let i = 0;
 
 function changeCouleur(){
     this.style.backgroundColor ='green';
+    this.style.color ='white';
+
 }
 
 function creerLigne(){
@@ -37,3 +39,4 @@ b2.addEventListener('click', creerHexagone);
 
 d2.addEventListener('mouseover', changeCouleur);
 d2.addEventListener('mouseout', function(){this.style.backgroundColor='inherit'});
+d2.addEventListener('mouseout', function(){this.style.color='inherit'});
