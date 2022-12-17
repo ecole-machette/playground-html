@@ -14,7 +14,7 @@ if ($nb_green >= 1) {
     echo("TECHIO> message --channel Super! Tu as trouvé la bonne solution. \r\n");
 } else {
     echo("TECHIO> success false  \r\n");
-	echo("TECHIO> message --channel Dommage&nbsp! Le style, ça se passe dans la feuille de style ! Es-tu allé voir là-bas ? \r\n");
+	echo("TECHIO> message --channel Dommage! Le style, ça se passe dans la feuille de style ! Es-tu allé voir là-bas ? \r\n");
 }
 
 
