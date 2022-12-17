@@ -26,35 +26,26 @@ body {
     box-shadow: inset 5px 5px 10px #d5d5d5,
                 inset -5px -5px 10px #ffffff;
 }
-.titre-rouge {
-    color: red;
+div#buttons {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
 }
 
-/* Hexagone */
-.haut {
-    width: 0;
-    border-bottom: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-    box-shadow:  5px 5px 10px #57ad57,
-                -5px -5px 10px #75eb75;
+button {
+    /* border: none; */
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #ffffff, #e1e1e1);
+    box-shadow:  10px 10px 20px #c8c8c8,
+                -10px -10px 20px #ffffff;
 }
-.milieu {
-    width: 104px;
-    height: 60px;
-    background-color: #6C6;
-    background: #66CC66;
-    box-shadow:  5px 5px 10px #57ad57,
-                -5px -5px 10px #75eb75;
+.titre-rouge {
+    color: green;
 }
-.bas {
-    width: 0;
-    border-top: 30px solid #6C6;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-    box-shadow:  5px 5px 10px #57ad57,
-                -5px -5px 10px #75eb75;
-}
+
 
 /* Map hexagonale */
 .hex {
@@ -64,18 +55,18 @@ body {
 }
 .hex .top {
     width: 0;
-    border-bottom: 30px solid #6C6;
+    border-bottom: 30px solid green;
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
 .hex .middle {
     width: 104px;
     height: 60px;
-    background: #6C6;
+    background: green;
 }
 .hex .bottom {
     width: 0;
-    border-top: 30px solid #6C6;
+    border-top: 30px solid green;
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
