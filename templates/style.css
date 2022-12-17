@@ -1,31 +1,87 @@
 body {
-    background-color: #e0e0e0;
+    background-color: #fafafa;
+    color: #555555;
     padding: 20px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-h1 {
-    color: red;
-}
 .up-neo h1 {
     text-align: center;
-    color: #555555;
 }
 .up-neo {
 
-    max-width: 500px;
+    max-width: 600px;
     padding: 20px;
     margin: 20px auto;
     border-radius: 50px;
-    background: linear-gradient(145deg, #cacaca, #f0f0f0);
-    box-shadow:  20px 20px 60px #bebebe,
-                -20px -20px 60px #ffffff;
+    background: #fafafa;
+    box-shadow:  5px 5px 10px #d5d5d5,
+                 -5px -5px 10px #ffffff;
 
 }
 .down-neo {
-    padding: 20px;
+    padding: 20px 30px;
     margin: 40px auto;
-    border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow: inset 20px 20px 60px #bebebe,
-                inset -20px -20px 60px #ffffff;
+    border-radius: 25px;
+    background: #fafafa;
+    box-shadow: inset 5px 5px 10px #d5d5d5,
+                inset -5px -5px 10px #ffffff;
+}
+.titre-rouge {
+    color: red;
+}
+
+/* Hexagone */
+.haut {
+    width: 0;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    box-shadow:  5px 5px 10px #57ad57,
+                -5px -5px 10px #75eb75;
+}
+.milieu {
+    width: 104px;
+    height: 60px;
+    background-color: #6C6;
+    background: #66CC66;
+    box-shadow:  5px 5px 10px #57ad57,
+                -5px -5px 10px #75eb75;
+}
+.bas {
+    width: 0;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+    box-shadow:  5px 5px 10px #57ad57,
+                -5px -5px 10px #75eb75;
+}
+
+/* Map hexagonale */
+.hex {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -26px;
+}
+.hex .top {
+    width: 0;
+    border-bottom: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle {
+    width: 104px;
+    height: 60px;
+    background: #6C6;
+}
+.hex .bottom {
+    width: 0;
+    border-top: 30px solid #6C6;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+.hex-row.even {
+    margin-left: 53px;
 }
